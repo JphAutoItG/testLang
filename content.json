@@ -1,6 +1,826 @@
-{
-  "custom-field": "adsas",
-  "custom-object": {
-    "custom-line": "asdsa"
-  }
-}
+[
+    {
+        "term": "error",
+        "definition": "Der skete en fejl",
+        "context": "\"accepted_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "info",
+        "definition": "Se din indbakke for kvittering.",
+        "context": "\"accepted_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": "Vi har reserveret bilen til dig",
+        "context": "\"accepted_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cancelled",
+        "definition": "Din booking er nu annulleret.",
+        "context": "\"cancelled_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "error",
+        "definition": "Der gik noget galt. Der er dermed ikke foretaget nogen booking. Venligst pr\u00f8v igen.",
+        "context": "\"cancelled_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "loading",
+        "definition": "Din booking er ved at blive annulleret.",
+        "context": "\"cancelled_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "addons",
+        "definition": "\u00d8vrige tilvalg",
+        "context": "\"component\".\"asidecar\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "delivery",
+        "definition": "Returneringsdato",
+        "context": "\"component\".\"asidecar\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "description",
+        "definition": "Bem\u00e6rk at bilen kan hentes fra kl <b>{starttime}<\/b> p\u00e5 afhentningsdatoen, og skal afleveres inden  kl. <b>{endtime}<\/b> p\u00e5 afleveringsdatoen.",
+        "context": "\"component\".\"asidecar\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "insurance",
+        "definition": "Selvrisikoforsikring",
+        "context": "\"component\".\"asidecar\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "pickup",
+        "definition": "Afhentningsdato",
+        "context": "\"component\".\"asidecar\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "pr_month_short",
+        "definition": "pr. mnd",
+        "context": "\"component\".\"asidecar\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "range",
+        "definition": "Ekstra kilometer",
+        "context": "\"component\".\"asidecar\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "range_included",
+        "definition": "Kilometer inkluderet",
+        "context": "\"component\".\"asidecar\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "rent_price",
+        "definition": "Lejepris",
+        "context": "\"component\".\"asidecar\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "rental_period",
+        "definition": "Lejeperiode",
+        "context": "\"component\".\"asidecar\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": "Du har valgt",
+        "context": "\"component\".\"asidecar\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "price_from",
+        "definition": "Totalpris fra:",
+        "context": "\"component\".\"cargrid\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "price_text",
+        "definition": "For valgte periode",
+        "context": "\"component\".\"cargrid\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "all",
+        "definition": "Alle",
+        "context": "\"general\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "back",
+        "definition": "Tilbage",
+        "context": "\"general\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "currency",
+        "definition": "kr",
+        "context": "\"general\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "date",
+        "definition": "Dato",
+        "context": "\"general\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "days",
+        "definition": "dag | dage",
+        "context": "\"general\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "from",
+        "definition": "Fra",
+        "context": "\"general\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "incl_tax",
+        "definition": "inkl. moms",
+        "context": "\"general\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "kilometer",
+        "definition": "km",
+        "context": "\"general\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next",
+        "definition": "Videre",
+        "context": "\"general\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "ok",
+        "definition": "OK",
+        "context": "\"general\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "or",
+        "definition": "Eller",
+        "context": "\"general\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "per_day",
+        "definition": "pr. dag",
+        "context": "\"general\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "price",
+        "definition": "Pris",
+        "context": "\"general\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "server_error",
+        "definition": "Der er desv\u00e6rre sket en fejl",
+        "context": "\"general\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "time",
+        "definition": "Tid",
+        "context": "\"general\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "time_symbol",
+        "definition": "kl.",
+        "context": "\"general\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "total",
+        "definition": "Total",
+        "context": "\"general\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "totalprice",
+        "definition": "Total pris: {price}",
+        "context": "\"general\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next",
+        "definition": "Find bil",
+        "context": "\"step0\".\"btn\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "count_total_days",
+        "definition": "{n} dag er valgt | {n} dage er valgt",
+        "context": "\"step0\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "carType",
+        "definition": "Biltype",
+        "context": "\"step0\".\"input\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "deliveryTitle",
+        "definition": "Returneringsdato",
+        "context": "\"step0\".\"input\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "delivery_time_label",
+        "definition": "Tid",
+        "context": "\"step0\".\"input\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "pickupTitle",
+        "definition": "Afhentningsdato",
+        "context": "\"step0\".\"input\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "pickup_time_label",
+        "definition": "Tid",
+        "context": "\"step0\".\"input\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "place",
+        "definition": "Sted",
+        "context": "\"step0\".\"input\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "subtitle",
+        "definition": "V\u00e6lg hvor og hvorn\u00e5r du \u00f8nsker at booke din udlejningsbil",
+        "context": "\"step0\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": "Book en udlejningsbil",
+        "context": "\"step0\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "book",
+        "definition": "Book bil",
+        "context": "\"step1\".\"btn\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "error_msg",
+        "definition": "Den \u00f8nskede biltype er desv\u00e6rre ikke ledig i den valgte periode, du kan dog booke en af vores andre biler.",
+        "context": "\"step1\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": "Find en bil der matcher dit behov",
+        "context": "\"step1\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "addons",
+        "definition": "Tilvalg",
+        "context": "\"step2\".\"input\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "maxrange",
+        "definition": "Over +500 km",
+        "context": "\"step2\".\"input\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "range",
+        "definition": "Antal km",
+        "context": "\"step2\".\"input\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "label",
+        "definition": "Selvrisikoforsikring ( {dayprice} kr. pr. dag )",
+        "context": "\"step2\".\"insurance\".\"input\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "small",
+        "definition": "Selvrisiko pr. skade kan neds\u00e6ttes fra {ownriskprice} kr til {minownriskprice} kr. Maksimum forsikringspris for valgte periode {maxinsuranceprice} kr",
+        "context": "\"step2\".\"insurance\".\"input\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "ownrisk_not_available",
+        "definition": " Din leje inkluderer ansvarsforsikring og kaskoforsikring i Danmark med en selvrisiko p\u00e5 {price} kr.",
+        "context": "\"step2\".\"insurance\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "text",
+        "definition": "Din leje inkluderer ansvarsforsikring og kaskoforsikring i Danmark. Tilk\u00f8b ekstra forsikringer.",
+        "context": "\"step2\".\"insurance\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": "Forsikring",
+        "context": "\"step2\".\"insurance\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "range-text",
+        "definition": "I lejeprisen er der inkluderet {included} km. pr. dag. Tilk\u00f8b evt. flere kilometer herunder",
+        "context": "\"step2\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "range_userspecifiedmaxkm_extra_text",
+        "definition": "eller derover",
+        "context": "\"step2\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "subtitle",
+        "definition": "V\u00e6lge hvor mange kilometer du \u00f8nsker inkluderet, og om du \u00f8nsker nogle tilvalg",
+        "context": "\"step2\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": "Antal km og tilvalg",
+        "context": "\"step2\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "acceptTerms",
+        "definition": "Jeg bekr\u00e6fter at forhandleren m\u00e5 bruge de indtastede data og kontakte mig i forbindelse med min foresp\u00f8rgsel",
+        "context": "\"step3\".\"input\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "address",
+        "definition": "Adresse",
+        "context": "\"step3\".\"input\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "birthdate",
+        "definition": "F\u00f8dselsdato",
+        "context": "\"step3\".\"input\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "city",
+        "definition": "By",
+        "context": "\"step3\".\"input\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "companyname",
+        "definition": "Evt. Firmanavn",
+        "context": "\"step3\".\"input\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cvr",
+        "definition": "Evt. CVR\/EAN",
+        "context": "\"step3\".\"input\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "email",
+        "definition": "E-mail",
+        "context": "\"step3\".\"input\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "firstname",
+        "definition": "Fornavn",
+        "context": "\"step3\".\"input\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "lastname",
+        "definition": "Efternavn",
+        "context": "\"step3\".\"input\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "phone",
+        "definition": "Telefon",
+        "context": "\"step3\".\"input\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "zipcode",
+        "definition": "Postnr",
+        "context": "\"step3\".\"input\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": "S\u00e5dan! Indtast venligst dine oplysninger",
+        "context": "\"step3\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "emailSubject",
+        "definition": "Din booking er gennemf\u00f8rt",
+        "context": "\"step4\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "emailSubject_inquiry",
+        "definition": "Din bookingforesp\u00f8rgsel er nu modtaget",
+        "context": "\"step4\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "confirm",
+        "definition": "G\u00c5 TIL BETALING",
+        "context": "\"step4\".\"payment_cards\".\"fullamount\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "disclaimer",
+        "definition": "N\u00e5r dit betalingskort er registreret, og k\u00f8bet er accepteret, tr\u00e6kkes det fulde skyldige bel\u00f8b p\u00e5 kortet. Hvis der under eller efter lejeperioden er yderligere skyldige bel\u00f8b i forbindelse med udlejningen (fx overk\u00f8rte km, tanket br\u00e6ndstof, skader, parkerings-og fartb\u00f8der m.m., vil det skyldige bel\u00f8b automatisk blive trukket p\u00e5 det registrerede betalingskort).",
+        "context": "\"step4\".\"payment_cards\".\"fullamount\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "text",
+        "definition": "   ",
+        "context": "\"step4\".\"payment_cards\".\"fullamount\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": "Betal det fulde bel\u00f8b",
+        "context": "\"step4\".\"payment_cards\".\"fullamount\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "confirm",
+        "definition": "Bekr\u00e6ft",
+        "context": "\"step4\".\"payment_cards\".\"inquiry\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "inquiry_created",
+        "definition": "Din bookingforesp\u00f8rgsel er nu sendt",
+        "context": "\"step4\".\"payment_cards\".\"inquiry\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "inquiry_created_error",
+        "definition": "Der skete en fejl",
+        "context": "\"step4\".\"payment_cards\".\"inquiry\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "text",
+        "definition": "   ",
+        "context": "\"step4\".\"payment_cards\".\"inquiry\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": "Bekr\u00e6ft din bookingforesp\u00f8rgsel",
+        "context": "\"step4\".\"payment_cards\".\"inquiry\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "presentation_mode",
+        "definition": "Betaling er under pr\u00e6sentation. Hvis du gerne vil afpr\u00f8ve betaling, bedes du hente denne tekstfil med et test betalingskort",
+        "context": "\"step4\".\"payment_cards\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "confirm",
+        "definition": "OPRET ABONNEMENT",
+        "context": "\"step4\".\"payment_cards\".\"subscription\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "disclaimer",
+        "definition": "N\u00e5r dit betalingskort er registreret, og k\u00f8bet er accepteret, startes betaling som et m\u00e5nedligt abonnement, hvor den m\u00e5nedlige ydelse automatisk tr\u00e6kkes fra det registrerede betalingskort. Hvis der efter endt leje er yderligere skyldige bel\u00f8b i forbindelse med udlejningen (fx overk\u00f8rte km, tanket br\u00e6ndstof, skader, parkerings-og fartb\u00f8der m.m., vil det skyldige bel\u00f8b automatisk blive trukket via det registrerede betalingskort).",
+        "context": "\"step4\".\"payment_cards\".\"subscription\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "text",
+        "definition": "Opret dit abonnement i dag og betal et fast bel\u00f8b hver m\u00e5nede",
+        "context": "\"step4\".\"payment_cards\".\"subscription\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": "Abonnement",
+        "context": "\"step4\".\"payment_cards\".\"subscription\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": "Betalingsmuligheder",
+        "context": "\"step4\".\"payment_cards\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "process_end_message",
+        "definition": "Du sendes nu videre til betalingsservices",
+        "context": "\"step4\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "subtitle",
+        "definition": "V\u00e6lg hvordan du \u00f8nsker at betale for din lejebil",
+        "context": "\"step4\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": "Gennemf\u00f8r din betaling for at fuldf\u00f8re din booking",
+        "context": "\"step4\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title_inquiry",
+        "definition": "Send bookingforesp\u00f8rgsel og vent p\u00e5 at blive kontaktet",
+        "context": "\"step4\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "step_1",
+        "definition": "V\u00e6lg",
+        "context": "\"stepper\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "step_2",
+        "definition": "Tilvalg",
+        "context": "\"stepper\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "step_3",
+        "definition": "Info",
+        "context": "\"stepper\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "step_4",
+        "definition": "Betaling",
+        "context": "\"stepper\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "email",
+        "definition": "E-mail skal v\u00e6re gyldig",
+        "context": "\"validation\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "minimum",
+        "definition": "Skal v\u00e6re over {min}",
+        "context": "\"validation\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "number",
+        "definition": "Skal skal v\u00e6re tal",
+        "context": "\"validation\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "required",
+        "definition": "Skal udfyldes",
+        "context": "\"validation\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    }
+]
